@@ -12,7 +12,7 @@ from rqopen_client import RQOpenClient
 
 username = "your ricequant username"
 password = "your ricequant password"
-run_id = you_run_id
+run_id = your_run_id
 
 client = RQOpenClient(username, password)
 
