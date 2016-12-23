@@ -65,4 +65,4 @@ get_positions接口：
 ```
 
 ## 集成
-1. <a href="http://example.com/" target="_blank">easytrader</a> 拿到交易信号，然后fire
+1. 【easytrader】（https://github.com/shidenggui/easytrader） 拿到交易信号，然后fire
