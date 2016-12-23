@@ -1,5 +1,10 @@
 # RQOpen-Client
 
+## install
+```
+pip install rqopen-client
+```
+
 ## client
 ```
 from pprint import pprint
