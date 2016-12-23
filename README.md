@@ -65,4 +65,4 @@ get_positions接口：
 ```
 
 ## 集成
-1. 【easytrader】（https://github.com/shidenggui/easytrader） 拿到交易信号，然后fire
+1. [easytrader](https://github.com/shidenggui/easytrader)拿到交易信号，然后fire
