@@ -63,3 +63,6 @@ get_positions接口：
                          'quantity': 1300.0}],
           'run_id': 968101}}
 ```
+
+## 集成
+1. <a href="http://example.com/" target="_blank">easytrader</a> 拿到交易信号，然后fire
