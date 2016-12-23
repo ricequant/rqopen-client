@@ -1,7 +1,7 @@
 # RQOpen-Client - RQOpen客户端
 
 ## 简介
-通过这个简单的python库，你可以拿到你在www.ricequant.com 运行的实盘模拟交易的策略的**当天的交易列表**和当前实时的仓位信息。
+通过这个简单的python库，你可以拿到你在 www.ricequant.com 运行的实盘模拟交易的策略的**当天的交易列表**和当前实时的仓位信息。
 
 ## 安装
 ```
