@@ -13,11 +13,12 @@ from pip.req import parse_requirements
 
 setup(
     name='rqopen-client',
-    version='0.0.1',
+    version='0.0.2',
     description='rqopen-client',
     packages=find_packages(exclude=[]),
     author='ricequant',
     author_email='public@ricequant.com',
+    url="https://github.com/ricequant/rqopen-client",
     package_data={'': ['*.*']},
     install_requires=[str(ir.req) for ir in parse_requirements("requirements.txt", session=False)],
     zip_safe=False,
