@@ -3,7 +3,6 @@
 #
 
 from setuptools import (
-    Extension,
     find_packages,
     setup,
 )
@@ -13,7 +12,7 @@ from pip.req import parse_requirements
 
 setup(
     name='rqopen-client',
-    version='0.0.2',
+    version='0.0.3',
     description='rqopen-client',
     packages=find_packages(exclude=[]),
     author='ricequant',
