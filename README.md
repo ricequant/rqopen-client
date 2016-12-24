@@ -64,5 +64,5 @@ get_positions接口：
           'run_id': 968101}}
 ```
 
-## 集成
-1. [easytrader](https://github.com/shidenggui/easytrader)拿到交易信号，然后fire
+## 集成实盘
+TBD
