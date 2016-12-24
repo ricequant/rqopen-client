@@ -9,7 +9,7 @@ pip install rqopen-client
 ```
 
 ## 简单的范例
-```
+``` python
 from pprint import pprint
 from rqopen_client import RQOpenClient
 
