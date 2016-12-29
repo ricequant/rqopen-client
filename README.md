@@ -23,14 +23,31 @@ pprint(client.get_day_trades(run_id))
 pprint(client.get_positions(run_id))
 ```
 上面代码的一些展示结果（随便一个范例）：
++ 初始化&登录: RQOpenClient(username, password)
 
-get_day_trades接口 - 今天没有任何下单：
+
++ 查询当日交易记录: get_day_trades(run_id)
+
+返回示例 - 今天没有任何下单：
 ```
 {'code': 200,
  'resp': {'name': '改进版小盘股 2016-08-28 16:15:06', 'run_id': 968101, 'trades': []}}
 ```
 
-get_positions接口：
+返回示例 - 当日有交易：
+```
+{'code': 200, 'resp': {'name': 'SVM大法好',
+          'trades': [{'order_book_id': '600216.XSHG',
+                      'price': 12.77,
+                      'quantity': -100.0,
+                      'time': '2016-12-23 09:32:00',
+                      'trade_id': '2',
+                      'transaction_cost': 6.28}]}}
+```
+
++ 查询最新持仓: get_positions(run_id)
+
+返回示 - 有持仓：
 ```
 {'code': 200,
  'resp': {'name': '改进版小盘股 2016-08-28 16:15:06',
