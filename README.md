@@ -23,10 +23,9 @@ pprint(client.get_day_trades(run_id))
 pprint(client.get_positions(run_id))
 ```
 上面代码的一些展示结果（随便一个范例）：
-+ 初始化&登录: RQOpenClient(username, password)
+### 初始化&登录: RQOpenClient(username, password)
 
-
-+ 查询当日交易记录: get_day_trades(run_id)
+### 查询当日交易记录: get_day_trades(run_id)
 
 返回示例 - 今天没有任何下单：
 ```
@@ -45,7 +44,7 @@ pprint(client.get_positions(run_id))
                       'transaction_cost': 6.28}]}}
 ```
 
-+ 查询最新持仓: get_positions(run_id)
+### 查询最新持仓: get_positions(run_id)
 
 返回示 - 有持仓：
 ```
