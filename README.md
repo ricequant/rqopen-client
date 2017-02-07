@@ -3,6 +3,8 @@
 ## 简介
 通过这个简单的python库，你可以拿到你在 www.ricequant.com 运行的实盘模拟交易的策略的**当天的交易列表**和当前实时的仓位信息。
 
+RQOpen 获取到的信号，会比系统时间稍微延迟一些。Ricequant Gateway 在切分钟线的时候会延迟10多秒，因为数据源的问题。而 RQAlpha 产生信号后，保存在数据库中。由 RQOpen 轮训，轮训的间隔，也是信号的延迟时间。
+
 ## 安装
 ```
 pip install rqopen-client
