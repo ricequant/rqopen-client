@@ -12,7 +12,7 @@ from pip.req import parse_requirements
 
 setup(
     name='rqopen-client',
-    version='0.0.3',
+    version='0.0.4',
     description='rqopen-client',
     packages=find_packages(exclude=[]),
     author='ricequant',
