@@ -81,6 +81,3 @@ pprint(client.get_positions(run_id))
                          'quantity': 1300.0}],
           'run_id': 968101}}
 ```
-
-## 集成实盘
-[实盘易（ShiPanE）Python SDK](https://github.com/sinall/ShiPanE-Python-SDK "实盘易（ShiPanE）Python SDK") 通过该 API 拉取米筐模拟交易下单信号，从而进行实盘跟单。
