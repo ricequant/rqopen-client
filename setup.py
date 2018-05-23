@@ -7,8 +7,10 @@ from setuptools import (
     setup,
 )
 
-from pip.req import parse_requirements
-
+try:  # for pip >= 10
+    from pip._internal.req import parse_requirements
+except ImportError:  # for pip <= 9.0.3
+    from pip.req import parse_requirements
 
 setup(
     name='rqopen-client',
@@ -19,6 +21,9 @@ setup(
     author_email='public@ricequant.com',
     url="https://github.com/ricequant/rqopen-client",
     package_data={'': ['*.*']},
-    install_requires=[str(ir.req) for ir in parse_requirements("requirements.txt", session=False)],
+    install_requires=[
+        str(ir.req)
+        for ir in parse_requirements("requirements.txt", session=False)
+    ],
     zip_safe=False,
 )
