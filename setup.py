@@ -14,7 +14,7 @@ except ImportError:  # for pip <= 9.0.3
 
 setup(
     name='rqopen-client',
-    version='0.0.4',
+    version='0.0.5',
     description='rqopen-client',
     packages=find_packages(exclude=[]),
     author='ricequant',
