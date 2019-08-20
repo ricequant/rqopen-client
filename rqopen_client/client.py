@@ -75,11 +75,11 @@ class RQOpenClient(object):
         return resp
 
     def get_day_trades(self, run_id):
-        warnings.warn("get_day_trades will be abandoned, please use current_trades")
+        warnings.warn("get_day_trades will be abandoned, please use current_trades", DeprecationWarning)
         return self._do(self._get_day_trades, run_id)
 
     def get_positions(self, run_id):
-        warnings.warn("current_positions will be abandoned, please use current_positions")
+        warnings.warn("current_positions will be abandoned, please use current_positions", DeprecationWarning)
         return self._do(self._get_positions, run_id)
 
     def _get_day_trades(self, run_id):
